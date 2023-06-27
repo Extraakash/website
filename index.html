@@ -16,6 +16,9 @@
     <!-- font awesome -->
     <script src="./assets/js/script.js"></script>
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- animation library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- animation library -->
 </head>
 
 <body>
@@ -49,9 +52,9 @@
                         regarding any project or just want to say a Hi? I am always
                         available to listen to you.
                     </p>
-                    <a href="mailto:janithc967@gmail.com">Contact Me</a>
+                    <a href="mailto:janithc967@gmail.com" data-aos="fade-right">Contact Me</a>
                 </div>
-                <div class="hero-container-img">
+                <div class="hero-container-img" data-aos="fade-down" data-aos-easing="ease-in-out">
                     <img src="./assets/me.png" alt="Hello There!!" />
                 </div>
             </div>
@@ -60,7 +63,7 @@
             <!-- about -->
             <div id="about-container">
                 <h2 style="text-align: center;">About Me</h2>
-                <div class="about-container-child">
+                <div class="about-container-child" data-aos="fade-up">
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate sunt nulla a ratione
                         molestiae hic deleniti ipsa excepturi voluptas dignissimos error unde ipsum modi dolor mollitia,
@@ -207,6 +210,19 @@
         </ul>
     </div>
     <!-- social icon bottom -->
+
+    <!-- animation script library -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        AOS.init({
+            offset: 120, // offset (in px) from the original trigger point
+            delay: 10, // values from 0 to 3000, with step 50ms
+            duration: 400, // values from 0 to 3000, with step 50ms
+            easing: 'ease',
+        });
+    </script>
+    <!-- animation script library -->
 </body>
 
 </html>
