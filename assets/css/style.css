@@ -87,6 +87,7 @@ body {
   --container-width: 85vw;
   --header-martop: 30px;
   --header-marbot: 30px;
+  --container-mob-width: 95vw;
 }
 
 /* css vavriables */
@@ -183,10 +184,12 @@ main {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
   padding: 50px;
+  margin-top: 20px;
 }
 
 .hero-container-content h2 {
   color: black;
+  margin-bottom: 10px;
 }
 
 .hero-container-content p {
@@ -509,28 +512,13 @@ main {
 
 
 /* responsive */
-@media screen and (max-width:530px) {
-  #header-container {
-    flex-direction: column;
-    padding: 10px 50px;
-  }
-
-  #header-container a {
-    margin-bottom: 10px;
-  }
-
-  #header-container ul li a {
-    font-size: 1.4rem;
-  }
-}
 
 @media screen and (max-width:620px) {
+
   .contact-container-child h3 {
     font-size: 2em;
   }
-}
 
-@media screen and (max-width:620px) {
   #footer-container {
     flex-direction: column;
     align-items: center;
@@ -550,7 +538,22 @@ main {
 
 }
 
-@media screen and (max-width:850px) {
+@media screen and (max-width:670px) {
+  #header-container {
+    flex-direction: column;
+  }
+
+  #header-container a {
+    margin-bottom: 10px;
+  }
+
+  #header-container ul li a {
+    font-size: 1.1rem;
+  }
+}
+
+
+@media screen and (max-width:915px) {
   .hero-container {
     flex-direction: column;
     align-items: center;
@@ -571,7 +574,18 @@ main {
   }
 
   .hero-container-img img {
-    width: 70vw;
+    width: 80vw;
+    height: auto;
+  }
+
+  #hero-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .hero-container-content a {
+    margin: 10px;
   }
 }
 
@@ -606,11 +620,12 @@ main {
 
 @media screen and (max-width:1100px) {
   #header-container {
-    width: 100vw;
+    width: 88vw;
+    height: 130px;
   }
 
   main {
-    width: 100vw;
+    width: 88vw;
   }
 
   #social-container {
