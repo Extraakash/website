@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+  /* border: 1px solid red; */
 }
 
 html {
@@ -81,13 +82,12 @@ body {
 
 /* hand wave hi */
 
-
 /* css vavriables */
 :root {
   --container-width: 85vw;
   --header-martop: 30px;
   --header-marbot: 30px;
-  --container-mob-width: 95vw;
+  --container-mob-width: 80vw;
 }
 
 /* css vavriables */
@@ -146,22 +146,24 @@ header nav ul li a.active {
 
 #header-logo {
   width: 130px;
+  height: 40px;
 }
 
 /* header */
 
 /* body conatiner main */
-.body-container {
+main {
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-top: 20px;
 }
 
-main {
+.body-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  margin-top: 20px;
   width: var(--container-width);
-  min-height: calc(100vh - 280px);
-  min-height: 900px;
   background: rgba(255, 255, 255, 0.5);
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.05);
   border-radius: 1rem 1rem 0rem 0rem;
@@ -240,20 +242,15 @@ main {
 
 .about-container-child p {
   text-align: justify;
-
 }
 
 #about-container h2 {
   margin-top: var(--header-martop);
   margin-bottom: var(--header-marbot);
-  /* text-decoration: underline;
-  text-decoration-color: #acb7e1;
-  text-decoration-thickness: 2px; */
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 /* about text */
-
 
 /* client */
 /*
@@ -317,7 +314,7 @@ main {
 
 .contact-container-child h3 {
   font-size: 40px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   opacity: 0.9;
   margin-bottom: 30px;
 }
@@ -336,7 +333,7 @@ main {
   padding: 20px 7px;
   text-align: center;
   text-decoration: none;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin-bottom: 12px;
 }
 
@@ -510,11 +507,26 @@ main {
 
 /* goto top */
 
-
 /* responsive */
+@media screen and (max-width: 600px) {
+  .body-container {
+    align-items: center;
+  }
 
-@media screen and (max-width:620px) {
+  .about-container-child {
+    width: var(--container-mob-width);
+  }
 
+  .hero-container-content {
+    width: var(--container-mob-width);
+  }
+
+  #contact-container {
+    width: var(--container-mob-width);
+  }
+}
+
+@media screen and (max-width: 620px) {
   .contact-container-child h3 {
     font-size: 2em;
   }
@@ -535,10 +547,9 @@ main {
   #footer-child-social {
     display: none;
   }
-
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width: 670px) {
   #header-container {
     flex-direction: column;
   }
@@ -552,14 +563,13 @@ main {
   }
 }
 
-
-@media screen and (max-width:915px) {
+@media screen and (max-width: 915px) {
   .hero-container {
     flex-direction: column;
     align-items: center;
   }
 
-  .hero-container-img img {
+  .hero-container-img {
     order: 1;
   }
 
@@ -574,7 +584,7 @@ main {
   }
 
   .hero-container-img img {
-    width: 80vw;
+    width: 100%;
     height: auto;
   }
 
@@ -589,7 +599,7 @@ main {
   }
 }
 
-@media screen and (max-width:950px) {
+@media screen and (max-width: 950px) {
   #contact-container {
     flex-direction: column;
   }
@@ -615,17 +625,15 @@ main {
     line-height: 1.3rem;
     margin-top: 10px;
   }
-
 }
 
-@media screen and (max-width:1100px) {
+@media screen and (max-width: 1100px) {
   #header-container {
-    width: 88vw;
-    height: 130px;
+    width: 93vw;
   }
 
-  main {
-    width: 88vw;
+  .body-container {
+    width: 93vw;
   }
 
   #social-container {
@@ -635,15 +643,12 @@ main {
   #social-container-bot {
     justify-content: center;
   }
-
 }
 
-
-@media screen and (max-width:1160px) {
+@media screen and (max-width: 1160px) {
   #goto-top {
     display: none;
   }
 }
-
 
 /* responsive */
