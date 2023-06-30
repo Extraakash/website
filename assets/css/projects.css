@@ -136,6 +136,16 @@ h1 {
 }
 
 /* responsive */
+@media screen and (max-width:450px) {
+    .video-container-row-child {
+        flex-direction: column;
+    }
+
+    .video-container-row-child-child video {
+        width: 70vw;
+    }
+}
+
 @media screen and (max-width:900px) {
     .video-container-row {
         flex-direction: column;
