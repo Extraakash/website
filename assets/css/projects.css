@@ -53,18 +53,20 @@ h1 {
     padding: 10px 16px;
     margin: 12px;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 1rem;
     border: none;
     box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
         7px 7px 20px 0px rgba(0, 0, 0, .1),
         4px 4px 5px 0px rgba(0, 0, 0, .1);
     background-color: #010e1b;
     color: white;
+    font-weight: 570;
 }
 
 #btn-filter .active,
 #btn-filter .btn-filter-child:hover {
-    background-color: #1d9bf0;
+    background-color: white;
+    color: black;
 }
 
 #video-container {
