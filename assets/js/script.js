@@ -1,3 +1,11 @@
+var navbar = document.querySelector(".navbar").querySelectorAll('a');
+console.log(navbar);
+navbar.forEach(Element => {
+    Element.addEventListener('click', function () {
+        navbar.forEach(nav => nav.classList.remove("menuact"));
+        this.classList.add("menuact");
+    })
+})
 // visible go to top
 window.addEventListener('scroll', function () {
     let top = document.getElementById("goto-top");
