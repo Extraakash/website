@@ -534,9 +534,9 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  backdrop-filter: blur(1rem);
+  backdrop-filter: blur(5.5rem);
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.05);
-  background-color: aqua;
+  /* background-color: aqua; */
   border: 1px solid rgba(255, 255, 255, 0.25);
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
