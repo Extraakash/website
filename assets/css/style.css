@@ -139,7 +139,8 @@ header nav ul li a {
 }
 
 header nav ul li a:hover,
-header nav ul li a.active {
+header nav ul li a:active,
+header nav ul li a:visited {
   background: hsla(0, 0%, 100%, 1);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
