@@ -176,6 +176,7 @@ main {
 .hero-container {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .hero-container-content {
@@ -185,13 +186,14 @@ main {
   border: 1px solid rgba(255, 255, 255, 0.25);
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
-  padding: 50px;
+  padding: 30px 40px;
   margin-top: 20px;
+  height: 360px;
 }
 
 .hero-container-content h2 {
   color: black;
-  margin-bottom: 10px;
+  margin-bottom: 36px;
 }
 
 .hero-container-content p {
@@ -231,7 +233,7 @@ main {
 
 /* about text */
 .about-container-child {
-  padding: 50px 40px;
+  padding: 40px 40px;
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.05);
   border-radius: 1rem;
   backdrop-filter: blur(1rem);
@@ -688,7 +690,7 @@ main {
 
   .hero-container-content {
     order: 2;
-    padding: 50px 20px;
+    padding: 50px 15px;
   }
 
   .hero-container-content h2 {
