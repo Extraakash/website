@@ -1,8 +1,8 @@
-window.addEventListener('load', function () {
+function discon() {
     document.getElementById("video-container").style.visibility = "visible";
     document.getElementById("loader").style.display = "none";
     document.getElementById("body").style.overflowY = "scroll";
-});
+}
 const buttons = document.querySelectorAll('.btn-filter-child');
 (function () {
     const storeVideos = document.querySelectorAll('.video-container-row');
