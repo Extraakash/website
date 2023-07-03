@@ -124,17 +124,10 @@ h1 {
 
 .video-container-row-child-child a {
     font-family: 'Manrope', sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    text-decoration: none;
-    color: #1d9bf0;
-    margin-top: 6px;
-    padding: 7px 16px;
-    border-radius: 5px;
-    border: 2px solid rgb(52, 62, 81);
-    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
-        7px 7px 20px 0px rgba(0, 0, 0, .1),
-        4px 4px 5px 0px rgba(0, 0, 0, .1);
+    font-size: 19px;
+    font-weight: 700;
+    color: rgb(52, 62, 81);
+    margin-bottom: 6px;
 }
 
 /* responsive */
