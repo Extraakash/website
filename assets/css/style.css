@@ -695,9 +695,11 @@ main {
   border-radius: 50%;
   width: 50px;
   height: 50px;
-  background: rgba(223, 238, 183, 0.86);
+  /* background: rgba(223, 238, 183, 0.86); */
+  background-color: #aee8ff;
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.05);
   backdrop-filter: blur(1rem);
+  -webkit-backdrop-filter: blur(1rem);
   border: 1px solid rgba(255, 255, 255, 0.25);
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
