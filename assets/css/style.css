@@ -867,6 +867,7 @@ main {
 
   .project-container-1-child img {
     width: 70vw;
+    height: 200px;
   }
 
   #proj-cont-fir-img {
@@ -901,7 +902,8 @@ main {
   }
 
   .project-container-2-child img {
-    width: 65vw;
+    width: 70vw;
+    height: 200px;
   }
 }
 
