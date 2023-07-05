@@ -622,6 +622,10 @@ main {
 
 /* social icon */
 #social-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: fixed;
   right: 5.93%;
   top: 30%;
