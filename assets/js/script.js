@@ -22,3 +22,11 @@ window.addEventListener('scroll', function () {
     }
 });
 // visible go to top
+
+
+
+(function () {
+    if (window.innerWidth <= 670) {
+        document.getElementById("testimonialdiv").style.width = "80vw";
+    }
+})();

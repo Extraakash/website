@@ -239,25 +239,22 @@
 
         .testimonial {
             width: 55vw !important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             background: rgba(255, 255, 255, 0.25);
             box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
             backdrop-filter: blur(4px);
             -webkit-backdrop-filter: blur(4px);
             border-radius: 10px;
             border: 1px solid rgba(255, 255, 255, 0.18);
-            padding: 30px 20px !important;
+            padding: 30px 20px;
         }
 
-        @media screen and (max-width:670px) {
-            .testimonial {
-                width: 80vw !important;
-            }
-        }
-
-        @media screen and (max-width:640px) {
-            .testimonial {
-                width: 80vw !important;
-            }
+        #testimheader {
+            font-size: 25px;
+            font-weight: bolder;
+            margin-top: 30px;
         }
     </style>
 </head>
@@ -339,10 +336,11 @@
             </div>
             <!-- contact section -->
             <!-- testimonial section -->
+            <h2 style="text-align: center;" id="testimheader">Testimonial</h2>
             <!-- Container for demo purpose -->
-            <div class="container my-24 mx-auto md:px-6 testimonial">
+            <div class="container my-7  mx-auto testimonial" id="testimonialdiv">
                 <!-- Section: Design Block -->
-                <section class="mb-10 text-center">
+                <section class="text-center">
                     <div id="carouselExampleCaptions" class="relative" data-te-carousel-init data-te-carousel-slide>
                         <div class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
                             <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
