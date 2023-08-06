@@ -666,8 +666,9 @@ main {
 /* social icon */
 /* social-container-bot */
 #social-container-bot {
-  display: none;
+  /* display: none; */
   justify-content: center;
+  opacity: 0;
 }
 
 #social-container-bot ul {
@@ -675,6 +676,7 @@ main {
   flex-direction: row;
   justify-content: center;
   backdrop-filter: blur(5.5rem);
+  transition: all linear 1s;
   -webkit-backdrop-filter: blur(5.5px);
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.05);
   /* background-color: aqua; */

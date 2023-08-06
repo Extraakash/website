@@ -13,12 +13,15 @@ window.addEventListener('scroll', function () {
     if (window.scrollY >= 20) {
         if (this.innerWidth <= 1100) {
             socbot.style.display = "flex";
+            socbot.style.opacity = "1";
+            socbot.style.transition = "all linear 1s";
         }
         top.style.visibility = "visible";
     }
     else {
         top.style.visibility = "hidden";
-        socbot.style.display = "none";
+        // socbot.style.display = "none";
+        socbot.style.opacity = "0";
     }
 });
 // visible go to top
