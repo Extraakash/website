@@ -6,9 +6,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
 
-body::-webkit-scrollbar {
-    display: none;
-}
+
 
 body {
     overflow-y: hidden;
@@ -56,9 +54,9 @@ h1 {
     cursor: pointer;
     border-radius: 1rem;
     border: none;
-    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+    /* box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
         7px 7px 20px 0px rgba(0, 0, 0, .1),
-        4px 4px 5px 0px rgba(0, 0, 0, .1);
+        4px 4px 5px 0px rgba(0, 0, 0, .1); */
     background-color: #010e1b;
     color: white;
     font-weight: 510;
