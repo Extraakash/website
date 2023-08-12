@@ -85,19 +85,21 @@
                     </ul>
                 </div>
                 <div id="form-container">
-                    <form id="contact" action="" method="post">
+                    <form id="contact" action="" method="post" netlify>
                         <h3 style="text-align: center;">Contact US</h3>
                         <fieldset>
-                            <input placeholder="Your name" type="text" tabindex="1" required>
+                            <input placeholder="Your name" type="text" tabindex="1" name="name" required>
                         </fieldset>
                         <fieldset>
-                            <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                            <input placeholder="Your Email Address" type="email" tabindex="2" name="email" required>
                         </fieldset>
                         <fieldset>
-                            <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+                            <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" name="phone"
+                                required>
                         </fieldset>
                         <fieldset>
-                            <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+                            <textarea placeholder="Type your message here...." tabindex="5" name="msg"
+                                required></textarea>
                         </fieldset>
                         <fieldset>
                             <button name="submit" type="submit" id="contact-submit"
