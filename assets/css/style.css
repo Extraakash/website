@@ -337,7 +337,7 @@ main {
 .project-container-1-child img {
   /* width: 603px; */
   width: 43vw;
-  height: 360px;
+  height: 340px;
 }
 
 #proj-cont-fir-img {
@@ -380,7 +380,7 @@ main {
 
 .project-container-2-child img {
   width: 30vw;
-  height: 300px;
+  height: 240px;
   margin-top: 25px;
 }
 
@@ -875,7 +875,7 @@ main {
 
   .project-container-1-child img {
     width: 70vw;
-    height: 200px;
+    height: 180px;
   }
 
   #proj-cont-fir-img {
@@ -911,7 +911,7 @@ main {
 
   .project-container-2-child img {
     width: 70vw;
-    height: 200px;
+    height: 190px;
   }
 }
 
