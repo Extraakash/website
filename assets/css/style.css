@@ -442,7 +442,7 @@ main {
 /* client */
 /* contact section */
 #contact-container {
-  background-color: #f8dee4;
+  background-color: rgba(245,210,226,0.30);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -451,6 +451,7 @@ main {
   border-radius: 1rem;
   margin-top: 40px;
   backdrop-filter: blur(1rem);
+  -webkit-backdrop-filter: blur(1rem);
   border: 1px solid rgba(255, 255, 255, 0.25);
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
@@ -570,9 +571,9 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  backdrop-filter: blur(5.5rem);
+  backdrop-filter: blur(1rem);
   transition: all linear 1s;
-  -webkit-backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(1rem);
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.05);
   /* background-color: aqua; */
   border: 1px solid rgba(255, 255, 255, 0.25);
@@ -838,6 +839,9 @@ main {
   #social-container-bot ul {
     width: 93vw;
   }
+	#hero-btn{
+	display: none;	
+	}
 }
 @media screen and (max-width: 1160px) {
   #goto-top {
