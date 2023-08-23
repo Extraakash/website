@@ -156,7 +156,7 @@ main {
   height: 340px;
 }
 .hero-container-content h2 {
-  color: black;
+  color: hsla(219, 22%, 26%, 1);
   margin-bottom: 36px;
   margin-top: 20px;
 }
@@ -168,7 +168,7 @@ main {
 .hero-container-content a {
   display: inline-block;
   padding: 0.9rem 1.8rem;
-  color: black;
+  color: hsla(219, 22%, 26%, 1);
   margin-top: 20px;
   margin-right: 10px;
   border-radius: 30px;
@@ -215,7 +215,7 @@ main {
 .about-container-child p {
   text-align: justify;
   width: 65%;
-	line-height: 1.5rem;
+  line-height: 1.5rem;
   color: rgb(96, 105, 123);
 }
 #about-container h2 {
@@ -237,6 +237,11 @@ main {
 }
 #project2-h2 {
   margin-top: var(--header-martop);
+  margin-bottom: var(--header-marbot);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#project3-h2 {
+  margin-top: -5px;
   margin-bottom: var(--header-marbot);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -272,7 +277,7 @@ main {
 }
 .proj-by {
   color: hsla(219, 22%, 26%, 1);
-  font-size: 20px;
+  font-size: 1.2rem;
   font-weight: 800px;
   margin-bottom: 10px;
 }
@@ -324,12 +329,12 @@ main {
 .proj-3 {
   background-color: #eef1fc;
   margin-right: 20px;
-	margin-left: -20px;
+  margin-left: -20px;
 }
 .proj-4 {
   background-color: #fdfdfe9b;
   margin-left: 20px;
-	margin-right: -20px;
+  margin-right: -20px;
 }
 .project-container-2-child img {
   width: 30vw;
@@ -453,7 +458,7 @@ main {
 /* client */
 /* contact section */
 #contact-container {
-  background-color: rgba(245,210,226,0.30);
+  background-color: rgba(245, 210, 226, 0.30);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -505,8 +510,6 @@ main {
 /* contact section */
 /* footer */
 #footer-container {
-  
-  
   margin-top: 40px;
   margin-bottom: 50px;
 }
@@ -514,8 +517,7 @@ main {
   font-size: 1rem;
   font-family: Arial, Helvetica, sans-serif;
   opacity: 0.7;
-	text-align: right;
-	
+  text-align: right;
 }
 #footer-container div ul {
   display: flex;
@@ -691,7 +693,7 @@ main {
   }
   #footer-child-text p {
     font-size: 0.9rem;
-	  text-align: center;
+    text-align: center;
   }
   #footer-child-social {
     display: none;
@@ -717,10 +719,10 @@ main {
   .hero-container-img {
     order: 1;
   }
-	.hero-container-img1 {
+  .hero-container-img1 {
     order: 1;
   }
-	.hero-container-img2 {
+  .hero-container-img2 {
     order: 1;
   }
   .hero-container-content {
@@ -739,11 +741,11 @@ main {
     width: 100%;
     height: auto;
   }
-	.hero-container-img1 img {
+  .hero-container-img1 img {
     width: 100%;
     height: auto;
   }
-	.hero-container-img2 img {
+  .hero-container-img2 img {
     width: 100%;
     height: auto;
   }
@@ -850,9 +852,9 @@ main {
   #social-container-bot ul {
     width: 93vw;
   }
-	#hero-btn{
-	display: none;	
-	}
+  #hero-btn {
+    display: none;
+  }
 }
 @media screen and (max-width: 1160px) {
   #goto-top {
