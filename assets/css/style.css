@@ -161,8 +161,8 @@ main {
   margin-top: 20px;
 }
 .hero-container-content p {
-  color: black;
   line-height: 1.5rem;
+  color: rgb(96, 105, 123);
   text-align: justify;
 }
 .hero-container-content a {
@@ -215,6 +215,8 @@ main {
 .about-container-child p {
   text-align: justify;
   width: 65%;
+	line-height: 1.5rem;
+  color: rgb(96, 105, 123);
 }
 #about-container h2 {
   margin-top: var(--header-martop);
@@ -228,7 +230,16 @@ main {
   margin-bottom: var(--header-marbot);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-
+#project1-h2 {
+  margin-top: var(--header-martop);
+  margin-bottom: var(--header-marbot);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#project2-h2 {
+  margin-top: var(--header-martop);
+  margin-bottom: var(--header-marbot);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
 .project-container-1 {
   display: flex;
   flex-direction: row;
