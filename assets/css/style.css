@@ -771,6 +771,12 @@ main {
     width: 70vw;
     height: 180px;
   }
+  .proj-3 {
+    margin-left: 0px;
+  }
+  .proj-4 {
+    margin-right: 0px;
+  }
   #proj-cont-fir-img {
     order: 2;
     margin-left: 0px;
