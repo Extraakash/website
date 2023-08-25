@@ -14,25 +14,51 @@ body {
 
 /* loader */
 #loader {
-    border: 8px solid #f3f3f3;
-    /* Light grey */
-    border-top: 8px solid #1d9bf0;
-    /* Blue */
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    animation: spin 0.7s linear infinite;
-    margin: 30vh auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: row;
 }
 
-@keyframes spin {
-    0% {
-        transform: rotate(0deg);
+.row1,
+.row2 {
+    display: flex;
+    flex-direction: row;
+}
+
+#loader .shim-child {
+    margin: 0px 10px;
+    border: none;
+    width: 200px;
+}
+
+#loader img {
+    width: 50px;
+    height: 50px;
+}
+
+@media screen and (max-width:1000px) {
+    .row1 {
+        margin-bottom: 40px;
     }
 
-    100% {
-        transform: rotate(360deg);
+    #loader {
+        align-items: center;
+        flex-direction: column;
     }
+}
+
+@media screen and (max-width:470px) {
+    #loader .shim-child {
+        width: 70vw;
+        margin-bottom: 40px;
+    }
+
+    .row1,
+    .row2 {
+        flex-direction: column;
+    }
+
 }
 
 /* loader */
