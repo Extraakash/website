@@ -105,7 +105,7 @@ header nav ul li a {
   text-decoration: none;
   font-weight: 300;
   font-size: 1.2rem;
-  color: black;
+  color: hsla(219, 22%, 26%, 1);
   padding: 8px 15px;
   border-radius: 1rem;
   transition: 500ms ease;
@@ -242,6 +242,11 @@ main {
 }
 #project3-h2 {
   margin-top: -5px;
+  margin-bottom: var(--header-marbot);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#contact-h2 {
+  margin-top: var(--header-martop);
   margin-bottom: var(--header-marbot);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -456,9 +461,10 @@ main {
   display: none;
 }
 /* client */
-/* contact section */
+/* contact section
+ background-color: rgba(245, 210, 226, 0.30);
+*/
 #contact-container {
-  background-color: rgba(245, 210, 226, 0.30);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -488,24 +494,30 @@ main {
   margin-bottom: 30px;
 }
 .contact-container-child p {
-  font-size: 20px;
-  line-height: 2rem;
+  line-height: 1.5rem;
+  color: rgb(96, 105, 123);
   text-align: justify;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 .contact-container-child a {
-  width: 170px;
-  color: #da869d;
-  border: 2px solid #da869d;
-  border-radius: 40px;
-  padding: 20px 7px;
-  text-align: center;
+  display: inline-block;
+  padding: 0.9rem 1.8rem;
+  color: hsla(219, 22%, 26%, 1);
+  margin-top: 20px;
+  margin-right: 10px;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  font-weight: 500;
   text-decoration: none;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  margin-bottom: 12px;
+  background: hsla(0, 0%, 100%, 0.25);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+  transition: 500ms ease;
+  text-align: center;
 }
 .contact-container-child a:hover {
-  background-color: #da869d;
-  color: white;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 5px 10px rgba(255, 255, 255, 0.05);
 }
 /* contact section */
 /* footer */
@@ -552,7 +564,7 @@ main {
 #social-container ul li a {
   text-decoration: none;
   background-color: #c0c3d0;
-  color: black;
+  color: hsla(219, 22%, 26%, 1);
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -604,12 +616,12 @@ main {
 }
 #social-container-bot ul li a {
   text-decoration: none;
-  color: black;
+  color: hsla(219, 22%, 26%, 1);
   border-radius: 50%;
   width: 50px;
   height: 50px;
-  /* background: rgba(223, 238, 183, 0.86); */
-  background-color: #aee8ff;
+   background: rgba(255,255,255,0.55); 
+  
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.05);
   backdrop-filter: blur(1rem);
   -webkit-backdrop-filter: blur(1rem);
@@ -866,5 +878,8 @@ main {
   #goto-top {
     display: none;
   }
+}
+.fa-headset {
+  color: hsla(219, 22%, 26%, 1);
 }
 /* responsive */
