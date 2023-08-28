@@ -514,6 +514,7 @@ main {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
   transition: 500ms ease;
   text-align: center;
+	
 }
 .contact-container-child a:hover {
   background: rgba(255, 255, 255, 0.5);
@@ -837,10 +838,10 @@ main {
   #contact-container {
     flex-direction: column;
   }
-  .contact-container-child {
+  /*.contact-container-child {
     flex-direction: column;
     align-items: center;
-  }
+  }*/
   .contact-container-child i, .contact-container-child h3, .contact-container-child p {
     margin-bottom: 20px;
   }
