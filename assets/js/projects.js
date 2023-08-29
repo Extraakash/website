@@ -5,7 +5,7 @@ function discon() {
 }
 const buttons = document.querySelectorAll('.btn-filter-child');
 (function () {
-    const storeVideos = document.querySelectorAll('.video-container-row');
+    const storeVideos = document.querySelectorAll('.video-container-row-child-child');
     buttons.forEach(button => {
         button.addEventListener('click', (e) => {
             e.preventDefault();

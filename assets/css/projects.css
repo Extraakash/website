@@ -65,17 +65,18 @@ h1 {
   flex-direction: column;
   align-items: center;
   margin-top: 20px;
-  /* border: 3px solid black; */
+  /*border: 3px solid black; */
   padding: 10px;
-  visibility: hidden;
+  /*visibility: hidden;*/
+	
 }
 .video-container-row {
   display: flex;
-  flex-direction: row;
+  flex-direction:row;
   justify-content: center;
-  width: 90vw;
+  width: 80vw;
   margin-bottom: 40px;
-  /* border: 3px solid red; */
+ /*  border: 3px solid red; */
 }
 .video-container-row p {
   font-size: 16px;
@@ -86,13 +87,15 @@ h1 {
 .video-container-row-child {
   display: flex;
   flex-direction: row;
+	flex-wrap: wrap;
   justify-content: center;
-  /* border: 3px solid blue; */
+ /*  border: 3px solid blue; */
 }
 .video-container-row-child-child {
   display: flex;
   flex-direction: column;
   align-items: center;
+	flex-wrap: wrap;
 }
 .video-container-row-child-child video {
   border-radius: 1rem;
