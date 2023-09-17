@@ -361,6 +361,17 @@ main {
 /* project section */
 /* client */
 /* Slider */
+.slide {
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+/* [2] Transition property for smooth transformation of images */
+.slide img {
+  transition: transform .5s ease;
+}
+/* [3] Finally, transforming the image when container gets hovered */
+.slide:hover img {
+  transform: scale(0.8);
+}
 .client-container h2 {
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -375,7 +386,8 @@ main {
 .slick-slide img {
   width: 100px;
   height: 100px;
-  border-radius: 8px;
+  border-radius: 1rem;
+  margin: 0 auto;
 }
 .slick-slider {
   position: relative;
@@ -514,7 +526,6 @@ main {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
   transition: 500ms ease;
   text-align: center;
-	
 }
 .contact-container-child a:hover {
   background: rgba(255, 255, 255, 0.5);
@@ -621,8 +632,7 @@ main {
   border-radius: 50%;
   width: 50px;
   height: 50px;
-   background: rgba(255,255,255,0.55); 
-  
+  background: rgba(255, 255, 255, 0.55);
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.05);
   backdrop-filter: blur(1rem);
   -webkit-backdrop-filter: blur(1rem);
