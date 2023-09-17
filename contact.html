@@ -42,7 +42,7 @@
         .swiper {
             width: 55vw;
             height: 500px;
-            border-radius: 8px;
+            border-radius: 1rem;
             margin-top: 40px;
             box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.05);
 
@@ -59,6 +59,7 @@
             justify-content: center;
             align-items: center;
             flex-direction: column;
+			border-radius: 1rem;
         }
 
         .swiper-slide img {
@@ -67,11 +68,16 @@
             height: 100px;
             object-fit: cover;
             padding: 10px;
+			border-radius: 1rem;
         }
 
         .swiper-slide p {
             margin: 20px 50px;
-            text-align: justify;
+            
+			text-align: justify;
+  line-height: 1.6rem;
+  color: rgb(96, 105, 123);
+  margin-bottom: 15px;
         }
 
         .star i {
@@ -292,6 +298,30 @@
 
             <!-- testimonial section  -->
             <!-- footer -->
+			<style>
+			a.web1:link, a.web1:visited {
+  color: hsla(219, 22%, 26%, 1);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.web1:hover, a.web1:active {
+  color: rebeccapurple;
+  background-color: transparent;
+  text-decoration: underline;
+}
+	a.web:link, a.web:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.web:hover, a.web:active {
+  color: rebeccapurple;
+  background-color: transparent;
+  text-decoration: underline;
+}	
+	</style>
             <div id="footer-container">
                 <div id="footer-child-text">
                     <p style="text-align: center;">Disclaimer: Your use of this site is subject to our <a class="web"
