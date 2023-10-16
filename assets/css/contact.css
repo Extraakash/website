@@ -150,16 +150,26 @@ fieldset {
     width: 80vw;
   }
 }
+#testimonial-container img{
+    
+		height:auto;
+  }
 @media screen and (max-width:670px) {
   #testimonial-container {
     display: flex;
     align-items: center;
 	  border-radius: 1rem;
   }
+	
+	#testimonial-container img{
+ 
+		height: auto;
+  }
   .swiper-slide p {
     margin: 20px 10px;
 	 border-radius: 1rem; 
   }
+	
   .swiper {
     width: 80vw !important;
   }
